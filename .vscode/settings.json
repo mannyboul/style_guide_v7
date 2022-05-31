@@ -1,0 +1,8 @@
+{
+  "liveSassCompile.settings.forceBaseDirectory": "/style_guide_v7/css",
+  "liveSassCompile.settings.autoprefix": [
+  
+  
+  ],
+  "liveSassCompile.settings.generateMap": true
+}
