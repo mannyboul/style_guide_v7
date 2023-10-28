@@ -1,0 +1,30 @@
+@use 'variables';
+
+/* ============================================= */
+/*              Typography                       */
+/* ============================================= */
+
+.headline-primary {
+  color: variables.$color-1;
+  margin-left: 10px;
+}
+
+.headline-secondary {
+  font-weight: 300;
+  color: variables.$color-2;
+}
+
+.link {
+  color: variables.$color-3;
+  font-weight: 700;
+}
+
+.blockquote {
+  font-size: 1.5em;
+  font-weight: 300;
+  font-style: italic;
+  margin-left: 20px;
+  padding-left: 20px;
+  border-left: 8px solid variables.$color-1;
+  border-radius: 5px;
+}

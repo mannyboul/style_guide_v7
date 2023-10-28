@@ -1,0 +1,35 @@
+@use 'variables';
+
+/* ============================================= */
+/*              Buttons                          */
+/* ============================================= */
+
+.btn {
+    margin-top: 15px;
+    width: 100%;
+    color: #fff;
+    border: none;
+    padding: 10px 0;
+    text-transform: uppercase;
+    border-radius: 5px;
+  }
+  
+  .default {
+    background-color: variables.$color-3;
+  }
+  
+  .error {
+    background-color: variables.$error;
+  }
+  
+  .info {
+    background-color: #927bc1;
+  }
+  
+  .success {
+    background-color: variables.$success;
+  }
+  
+  .warning {
+    background-color: #fd7856;
+  }
